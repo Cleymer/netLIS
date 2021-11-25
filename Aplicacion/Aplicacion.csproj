@@ -13,11 +13,4 @@
     <ProjectReference Include="..\Persistencia\Persistencia.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Medico\" />
-    <Folder Include="Examen\" />
-    <Folder Include="OrdenDetalle\" />
-    <Folder Include="Orden\" />
-  </ItemGroup>
-
 </Project>
