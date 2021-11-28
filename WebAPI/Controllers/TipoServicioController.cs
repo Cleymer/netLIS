@@ -21,7 +21,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<TblCatTipoServicio>> Detalle(Guid guid)
+        public async Task<ActionResult<TblCatTipoServicio>> Detalle(Guid id)
         {
             return await Mediator.Send(new ConsultaId.TipoServicioUnico { Id= id});
         }
