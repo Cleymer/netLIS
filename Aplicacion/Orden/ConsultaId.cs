@@ -7,30 +7,29 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Aplicacion.Paciente
+namespace Aplicacion.Orden
 {
     public class ConsultaId
     {
 
-        public class PacienteUnico : IRequest<TblPaciente>
+        public class OrdenUnico : IRequest<TblOrdenes>
         {
             public Guid Id { get; set; }
         }
 
-        public class Manejador : IRequestHandler<PacienteUnico, TblPaciente>
+        public class Manejador : IRequestHandler<OrdenUnico, TblOrdenes>
         {
+
             private readonly netLisContext _context;
             public Manejador(netLisContext context)
             {
                 _context = context;
             }
 
-            public async Task<TblPaciente> Handle(PacienteUnico request, CancellationToken cancellationToken)
+            public async Task<TblOrdenes> Handle(OrdenUnico request, CancellationToken cancellationToken)
             {
-                var paciente = await _context.TblPacientes.FindAsync(request.Id);
-
-                return paciente;
-
+                var orden = await _context.TblOrdenes.FindAsync(request.Id);
+                return orden;
             }
         }
     }

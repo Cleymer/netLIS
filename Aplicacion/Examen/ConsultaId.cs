@@ -7,17 +7,17 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Aplicacion.Paciente
+namespace Aplicacion.Examen
 {
     public class ConsultaId
     {
 
-        public class PacienteUnico : IRequest<TblPaciente>
+        public class ExamenUnico: IRequest<TblExamenes>
         {
             public Guid Id { get; set; }
         }
 
-        public class Manejador : IRequestHandler<PacienteUnico, TblPaciente>
+        public class Manejador : IRequestHandler<ExamenUnico, TblExamenes>
         {
             private readonly netLisContext _context;
             public Manejador(netLisContext context)
@@ -25,12 +25,10 @@ namespace Aplicacion.Paciente
                 _context = context;
             }
 
-            public async Task<TblPaciente> Handle(PacienteUnico request, CancellationToken cancellationToken)
+            public async Task<TblExamenes> Handle(ExamenUnico request, CancellationToken cancellationToken)
             {
-                var paciente = await _context.TblPacientes.FindAsync(request.Id);
-
-                return paciente;
-
+                var examen = await _context.TblExamenes.FindAsync(request.Id);
+                return examen;
             }
         }
     }

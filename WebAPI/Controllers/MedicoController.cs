@@ -20,5 +20,10 @@ namespace WebAPI.Controllers
             return await Mediator.Send(new Consulta.Ejecuta());
         }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<TblMedico>> Detalle(Guid id)
+        {
+            return await Mediator.Send(new ConsultaId.MedicoUnico { Id = id });
+        }
     }
 }

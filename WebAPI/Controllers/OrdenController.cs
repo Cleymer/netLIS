@@ -1,5 +1,6 @@
 ﻿using Aplicacion.Orden;
 using Dominio.Model;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,18 @@ namespace WebAPI.Controllers
         public async Task<ActionResult<List<TblOrdenes>>> Get()
         {
             return await Mediator.Send(new Consulta.Ejecuta());
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<TblOrdenes>> Detalle(Guid id)
+        {
+            return await Mediator.Send(new ConsultaId.OrdenUnico { Id = id });
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Unit>> Crear(Nuevo.Ejecuta data)
+        {
+            return await Mediator.Send(data);
         }
     }
 }
