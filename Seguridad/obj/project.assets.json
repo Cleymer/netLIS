@@ -8,23 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Cleymer\\.nuget\\packages\\": {},
+    "C:\\Users\\REYNA\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cleymer\\Desktop\\Trabajos\\netLis\\Seguridad\\Seguridad.csproj",
+      "projectUniqueName": "C:\\Users\\REYNA\\Desktop\\netLIS\\Seguridad\\Seguridad.csproj",
       "projectName": "Seguridad",
-      "projectPath": "C:\\Users\\Cleymer\\Desktop\\Trabajos\\netLis\\Seguridad\\Seguridad.csproj",
-      "packagesPath": "C:\\Users\\Cleymer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cleymer\\Desktop\\Trabajos\\netLis\\Seguridad\\obj\\",
+      "projectPath": "C:\\Users\\REYNA\\Desktop\\netLIS\\Seguridad\\Seguridad.csproj",
+      "packagesPath": "C:\\Users\\REYNA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\REYNA\\Desktop\\netLIS\\Seguridad\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cleymer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\REYNA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

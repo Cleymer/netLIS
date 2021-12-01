@@ -22,3 +22,15 @@ C:\Users\Cleymer\Desktop\Trabajos\netLis\Seguridad\obj\Debug\net5.0\Seguridad.cs
 C:\Users\Cleymer\Desktop\Trabajos\netLis\Seguridad\obj\Debug\net5.0\Seguridad.dll
 C:\Users\Cleymer\Desktop\Trabajos\netLis\Seguridad\obj\Debug\net5.0\ref\Seguridad.dll
 C:\Users\Cleymer\Desktop\Trabajos\netLis\Seguridad\obj\Debug\net5.0\Seguridad.pdb
+C:\Users\REYNA\Desktop\netLIS\Seguridad\bin\Debug\net5.0\Seguridad.deps.json
+C:\Users\REYNA\Desktop\netLIS\Seguridad\bin\Debug\net5.0\Seguridad.dll
+C:\Users\REYNA\Desktop\netLIS\Seguridad\bin\Debug\net5.0\ref\Seguridad.dll
+C:\Users\REYNA\Desktop\netLIS\Seguridad\bin\Debug\net5.0\Seguridad.pdb
+C:\Users\REYNA\Desktop\netLIS\Seguridad\obj\Debug\net5.0\Seguridad.csproj.AssemblyReference.cache
+C:\Users\REYNA\Desktop\netLIS\Seguridad\obj\Debug\net5.0\Seguridad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\REYNA\Desktop\netLIS\Seguridad\obj\Debug\net5.0\Seguridad.AssemblyInfoInputs.cache
+C:\Users\REYNA\Desktop\netLIS\Seguridad\obj\Debug\net5.0\Seguridad.AssemblyInfo.cs
+C:\Users\REYNA\Desktop\netLIS\Seguridad\obj\Debug\net5.0\Seguridad.csproj.CoreCompileInputs.cache
+C:\Users\REYNA\Desktop\netLIS\Seguridad\obj\Debug\net5.0\Seguridad.dll
+C:\Users\REYNA\Desktop\netLIS\Seguridad\obj\Debug\net5.0\ref\Seguridad.dll
+C:\Users\REYNA\Desktop\netLIS\Seguridad\obj\Debug\net5.0\Seguridad.pdb

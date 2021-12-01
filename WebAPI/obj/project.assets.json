@@ -6013,23 +6013,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cleymer\\.nuget\\packages\\": {},
+    "C:\\Users\\REYNA\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cleymer\\Desktop\\Trabajos\\netLis\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\REYNA\\Desktop\\netLIS\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Cleymer\\Desktop\\Trabajos\\netLis\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\Cleymer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cleymer\\Desktop\\Trabajos\\netLis\\WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\REYNA\\Desktop\\netLIS\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\REYNA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\REYNA\\Desktop\\netLIS\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cleymer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\REYNA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6044,11 +6044,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Cleymer\\Desktop\\Trabajos\\netLis\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\Cleymer\\Desktop\\Trabajos\\netLis\\Aplicacion\\Aplicacion.csproj"
+            "C:\\Users\\REYNA\\Desktop\\netLIS\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\REYNA\\Desktop\\netLIS\\Aplicacion\\Aplicacion.csproj"
             },
-            "C:\\Users\\Cleymer\\Desktop\\Trabajos\\netLis\\Seguridad\\Seguridad.csproj": {
-              "projectPath": "C:\\Users\\Cleymer\\Desktop\\Trabajos\\netLis\\Seguridad\\Seguridad.csproj"
+            "C:\\Users\\REYNA\\Desktop\\netLIS\\Seguridad\\Seguridad.csproj": {
+              "projectPath": "C:\\Users\\REYNA\\Desktop\\netLIS\\Seguridad\\Seguridad.csproj"
             }
           }
         }
@@ -6092,7 +6092,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
