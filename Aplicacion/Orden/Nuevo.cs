@@ -21,14 +21,14 @@ namespace Aplicacion.Orden
             public Guid IdTipoOrden { get; set; }
             public string Asistencia { get; set; }
             public string Observaciones { get; set; }
-            public DateTime FechaOrden { get; set; }
+            //public DateTime FechaOrden { get; set; }
             public string Activo { get; set; }
             public DateTime? FechaImprime { get; set; }
             public string UsuarioImprime { get; set; }
             public int Estado { get; set; }
             public string Finalizado { get; set; }
             public DateTime? FechaCita { get; set; }
-            public DateTime FechaPreporte { get; set; }
+            //public DateTime FechaPreporte { get; set; }
 
         }
 
@@ -52,14 +52,14 @@ namespace Aplicacion.Orden
                     IdTipoOrden = request.IdTipoOrden,
                     Asistencia = request.Asistencia,
                     Observaciones = request.Observaciones,
-                    FechaOrden = request.FechaOrden,
-                    Activo = request.Activo,
-                    FechaCita = request.FechaCita,
-                    FechaImprime = request.FechaImprime,
-                    UsuarioImprime = request.UsuarioImprime,
+                    FechaOrden = DateTime.Today,
+                    //Activo = request.Activo,
+                    //FechaCita = request.FechaCita,
+                    //FechaImprime = request.FechaImprime,
+                    //UsuarioImprime = request.UsuarioImprime,
                     Estado = request.Estado,
-                    Finalizado = request.Finalizado,
-                    FechaPreporte = request.FechaPreporte
+                    //Finalizado = request.Finalizado,
+                    FechaPreporte = DateTime.Today
                 };
 
                 _context.TblOrdenes.Add(orden);

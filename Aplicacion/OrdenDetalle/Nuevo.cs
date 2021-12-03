@@ -35,7 +35,7 @@ namespace Aplicacion.OrdenDetalle
                     IdOrden = request.IdOrden,
                     NOrden = request.NOrden,
                     IdExamen = request.IdExamen,
-                    Activo = request.Activo,
+                    Activo = "Si",
                 };
 
                 _context.TblOrdenesDetalles.Add(ordenDetalle);

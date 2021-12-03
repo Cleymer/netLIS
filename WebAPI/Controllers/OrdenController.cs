@@ -25,6 +25,12 @@ namespace WebAPI.Controllers
             return await Mediator.Send(new OrdenPaciente.ConsultaPaciente { Paciente = id});
         }
 
+        [HttpGet("tipoorden/{id}")]
+        public async Task<ActionResult<List<TblOrdenes>>> TipoOrden(Guid id)
+        {
+            return await Mediator.Send(new OrdenTipo.ConsultaTipoOrden { TipoOrden = id });
+        }
+
         [HttpGet("{id}")]
         public async Task<ActionResult<TblOrdenes>> Detalle(Guid id)
         {
