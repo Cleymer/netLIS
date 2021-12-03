@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Aplicacion.Perfiles;
+using MediatR;
 
 namespace WebAPI.Controllers
 {
@@ -17,6 +18,12 @@ namespace WebAPI.Controllers
         public async Task<ActionResult<List<TblCatPerfiles>>> Get()
         {
             return await Mediator.Send(new Consulta.Ejecuta());
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Unit>> Crear(Nuevo.Ejecuta data)
+        {
+            return await Mediator.Send(data);
         }
 
     }

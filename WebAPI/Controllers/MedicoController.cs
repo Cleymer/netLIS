@@ -1,4 +1,4 @@
-﻿using Aplicacion.Medico;
+﻿    using Aplicacion.Medico;
 using Dominio.Model;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
